@@ -13,10 +13,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button Name="lineSeries" Content="Line Series" Width="100" Height="28" Margin="30,0" Click="lineSeries_Click"/>
-            <Button Name="sccaterSeries" Content="Scatter Series" Width="100" Height="28" Margin="30,0" Click="sccaterSeries_Click"/>
-            <Button Name="barSeries" Content="Bar Series" Width="100" Height="28" Margin="30,0" Click="barSeries_Click"/>
-            <Button Name="columnSeries" Content="Column Series" Width="100" Height="28" Margin="30,0" Click="columnSeries_Click"/>
+            <Button Name="lineSeries" Content="Line Series" Width="100" Height="28" Margin="30,0" Click="LineSeries_Click"/>
+            <Button Name="scatterSeries" Content="Scatter Series" Width="100" Height="28" Margin="30,0" Click="ScatterSeries_Click"/>
+            <Button Name="barSeries" Content="Bar Series" Width="100" Height="28" Margin="30,0" Click="BarSeries_Click"/>
+            <Button Name="columnSeries" Content="Column Series" Width="100" Height="28" Margin="30,0" Click="ColumnSeries_Click"/>
 
         </StackPanel>
         <GroupBox Header="Plot" Margin="10" Grid.Row="1">
