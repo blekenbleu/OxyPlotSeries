@@ -36,10 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="OxyPlot">
-      <HintPath>..\..\OxyPlot.dll</HintPath>
+      <HintPath>$(SIMHUB_INSTALL_PATH)OxyPlot.dll</HintPath>
     </Reference>
     <Reference Include="OxyPlot.Wpf">
-      <HintPath>..\..\OxyPlot.Wpf.dll</HintPath>
+      <HintPath>$(SIMHUB_INSTALL_PATH)OxyPlot.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="ReachFramework" />
     <Reference Include="System" />
